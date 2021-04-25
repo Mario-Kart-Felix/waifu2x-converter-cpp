@@ -1,0 +1,18 @@
+Open command prompt (cmd.exe/git bash)
+
+Recommended:
+
+npm install -g typescript@latest
+or
+
+yarn global add typescript@latest  // if you use yarn package manager
+This will install the latest typescript version if not already installed, otherwise it will update the current installation to the latest version.
+
+And then verify which version is installed:
+
+tsc -v
+enter image description here
+
+If you have typescript already installed you could also use the following command to update to latest version, but as commentators have reported and I confirm it that the following command does not update to latest (as of now [ Feb 10 '17])!
+
+npm update -g typescript@latest
